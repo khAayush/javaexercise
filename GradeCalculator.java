@@ -1,5 +1,5 @@
 public class GradeCalculator {
-    public float clacGrade(float mark1, float mark2, float mark3){
+    public static double calcGrade(double mark1, double mark2, double mark3) {
         return (mark1 + mark2 + mark3)/3;
     }
 }
